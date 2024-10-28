@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/stainless-sdks/sst-url-shortener-go/internal/apijson"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal/apijson"
 )
 
 // Error represents an error that originates from the API, i.e. when a request is

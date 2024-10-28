@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/stainless-sdks/sst-url-shortener-go/internal/requestconfig"
-	"github.com/stainless-sdks/sst-url-shortener-go/option"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal/requestconfig"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/option"
 )
 
 // Client creates a struct with services and top level methods that help with
