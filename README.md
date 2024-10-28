@@ -1,9 +1,11 @@
-# Sst URL Shortener Go API Library
+# sst-url-shortener-go-sdk
 
 <a href="https://pkg.go.dev/github.com/Dizzzmas/sst-url-shortener-go-sdk"><img src="https://pkg.go.dev/badge/github.com/Dizzzmas/sst-url-shortener-go-sdk.svg" alt="Go Reference"></a>
 
-The Sst URL Shortener Go library provides convenient access to [the Sst URL Shortener REST
-API](https://docs.sst-url-shortener.com) from applications written in Go. The full API of this library can be found in [api.md](api.md).
+Project this SDK is for: [sst-url-shortener](https://github.com/Dizzzmas/sst-url-shortener)
+
+The SST URL Shortener Go library provides convenient access to the SST URL Shortener REST
+API from applications written in Go. The full API of this library can be found in [api.md](api.md).
 
 It is generated with [Stainless](https://www.stainlessapi.com/).
 
