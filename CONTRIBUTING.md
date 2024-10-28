@@ -41,7 +41,7 @@ To use a local version of this library from source in another project, edit the 
 directive. This can be done through the CLI with the following:
 
 ```sh
-$ go mod edit -replace github.com/stainless-sdks/sst-url-shortener-go=/path/to/sst-url-shortener-go
+$ go mod edit -replace github.com/Dizzzmas/sst-url-shortener-go-sdk=/path/to/sst-url-shortener-go-sdk
 ```
 
 ## Running tests

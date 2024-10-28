@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stainless-sdks/sst-url-shortener-go/internal/param"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal/param"
 )
 
 var encoders sync.Map // map[reflect.Type]encoderFunc

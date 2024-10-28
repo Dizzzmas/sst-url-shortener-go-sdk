@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stainless-sdks/sst-url-shortener-go/internal/param"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal/param"
 )
 
 type Struct struct {
