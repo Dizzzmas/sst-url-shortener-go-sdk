@@ -1,4 +1,4 @@
-module github.com/stainless-sdks/sst-url-shortener-go
+module github.com/Dizzzmas/sst-url-shortener-go-sdk
 
 go 1.21
 

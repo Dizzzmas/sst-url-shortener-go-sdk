@@ -3,7 +3,7 @@
 package ssturlshortener
 
 import (
-	"github.com/stainless-sdks/sst-url-shortener-go/internal/apierror"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal/apierror"
 )
 
 type Error = apierror.Error

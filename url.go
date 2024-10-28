@@ -8,11 +8,11 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/stainless-sdks/sst-url-shortener-go/internal/apijson"
-	"github.com/stainless-sdks/sst-url-shortener-go/internal/apiquery"
-	"github.com/stainless-sdks/sst-url-shortener-go/internal/param"
-	"github.com/stainless-sdks/sst-url-shortener-go/internal/requestconfig"
-	"github.com/stainless-sdks/sst-url-shortener-go/option"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal/apijson"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal/apiquery"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal/param"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal/requestconfig"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/option"
 )
 
 // URLService contains methods and other services that help with interacting with
