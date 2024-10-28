@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Dizzzmas/sst-url-shortener-go-sdk"
+	ssturlshortener "github.com/Dizzzmas/sst-url-shortener-go-sdk"
 	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal/testutil"
 	"github.com/Dizzzmas/sst-url-shortener-go-sdk/option"
 )
@@ -25,7 +25,7 @@ func TestUsage(t *testing.T) {
 		option.WithBearerToken("My Bearer Token"),
 	)
 	url, err := client.URLs.New(context.TODO(), ssturlshortener.URLNewParams{
-		OriginalURL: ssturlshortener.F("REPLACE_ME"),
+		OriginalURL: ssturlshortener.F("https://github.com/Dizzzmas/sst-url-shortener"),
 	})
 	if err != nil {
 		t.Error(err)
