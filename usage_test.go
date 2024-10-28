@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stainless-sdks/sst-url-shortener-go"
-	"github.com/stainless-sdks/sst-url-shortener-go/internal/testutil"
-	"github.com/stainless-sdks/sst-url-shortener-go/option"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal/testutil"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/option"
 )
 
 func TestUsage(t *testing.T) {

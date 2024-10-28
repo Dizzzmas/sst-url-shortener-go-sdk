@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stainless-sdks/sst-url-shortener-go"
-	"github.com/stainless-sdks/sst-url-shortener-go/internal"
-	"github.com/stainless-sdks/sst-url-shortener-go/option"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/option"
 )
 
 type closureTransport struct {

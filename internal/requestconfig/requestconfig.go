@@ -17,10 +17,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stainless-sdks/sst-url-shortener-go/internal"
-	"github.com/stainless-sdks/sst-url-shortener-go/internal/apierror"
-	"github.com/stainless-sdks/sst-url-shortener-go/internal/apiform"
-	"github.com/stainless-sdks/sst-url-shortener-go/internal/apiquery"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal/apierror"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal/apiform"
+	"github.com/Dizzzmas/sst-url-shortener-go-sdk/internal/apiquery"
 )
 
 func getDefaultHeaders() map[string]string {
