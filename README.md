@@ -4,8 +4,7 @@
 
 Project this SDK is for: [sst-url-shortener](https://github.com/Dizzzmas/sst-url-shortener)
 
-The SST URL Shortener Go library provides convenient access to the SST URL Shortener REST
-API from applications written in Go. The full API of this library can be found in [api.md](api.md).
+The SST URL Shortener Go library provides convenient access to the [SST URL Shortener](https://github.com/Dizzzmas/sst-url-shortener) REST API from applications written in Go. The full API of this library can be found in [api.md](api.md).
 
 It is generated with [Stainless](https://www.stainlessapi.com/).
 
@@ -52,7 +51,8 @@ import (
 
 func main() {
 	client := ssturlshortener.NewClient(
-		option.WithBearerToken("My Bearer Token"), // defaults to os.LookupEnv("BEARER_TOKEN")
+		option.WithBaseURL("YOUR_URL_SHORTENER_API_BASE_URL"),
+		option.WithBearerToken("your_secret"), // defaults to os.LookupEnv("BEARER_TOKEN")
 	)
 	url, err := client.URLs.New(context.TODO(), ssturlshortener.URLNewParams{
 		OriginalURL: ssturlshortener.F("REPLACE_ME"),
