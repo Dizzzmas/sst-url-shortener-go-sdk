@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0 (2024-10-29)
+
+Full Changelog: [v0.1.0-alpha.1...v1.0.0](https://github.com/Dizzzmas/sst-url-shortener-go-sdk/compare/v0.1.0-alpha.1...v1.0.0)
+
+### Features
+
+* feat: docs and ready for v1 ([3c3800e](https://github.com/Dizzzmas/sst-url-shortener-go-sdk/commit/3c3800ef444199520a60aac1f8a1cf680e27c9b4))
+
 ## 0.1.0-alpha.1 (2024-10-28)
 
 Full Changelog: [v0.0.1-alpha.1...v0.1.0-alpha.1](https://github.com/Dizzzmas/sst-url-shortener-go-sdk/compare/v0.0.1-alpha.1...v0.1.0-alpha.1)
